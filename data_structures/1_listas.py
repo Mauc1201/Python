@@ -24,3 +24,7 @@ print (numeros1[0][0][1])
 # Cambiando el valor de uno de los elementos de la lista
 numeros[5][0] = "cinco"
 print (numeros[5])
+
+----------------------------------------------------------
+http://localhost:8889/notebooks/Desktop/Untitled.ipynb?kernel_name=python3
+    #Se modifico el archivo y se añadieron y quitaron elementos de la lista
