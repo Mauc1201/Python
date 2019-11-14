@@ -7,3 +7,7 @@ plt.title('Title')
 plt.ylabel('some Y numbers')
 plt.xlabel('some X numbers')
 plt.show()
+
+
+------------------------------
+http://localhost:8888/notebooks/Untitled2.ipynb?kernel_name=python3
