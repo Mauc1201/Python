@@ -18,3 +18,6 @@ plt.axis([40, 160, 0, 0.03])
 plt.grid(True)
 plt.show()
 
+######## hicimos dos tipos de graficas, se muestran en los siguientes enlaces
+1) http://localhost:8888/notebooks/Untitled3.ipynb?kernel_name=python3
+2) http://localhost:8888/notebooks/Untitled4.ipynb?kernel_name=python3
