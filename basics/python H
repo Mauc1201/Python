@@ -1,0 +1,12 @@
+hellomath =(((3+2)/(2*5))**2)
+print(hellomath)
+
+ #la funcion "len" te dice la longitud de la cadena(str)
+ #Tenemos que convertir la funcion "len" a str ya que nos arroja un valor numerico(int) lo cual arroja un error al ejecutarlo 
+nmbr=input("dime tu nombre: ")
+ print(nmbr + " tiene " + str(len(nmbr)) + " letras ")
+ 
+peso =input("¿cuanto pesas?(kg): ")
+altura =input("¿cuanto mides?(m): ")
+imc =round(float(peso)/float(altura)**2,2)
+print("Tu indice de masa corporal es:" + str(imc))
