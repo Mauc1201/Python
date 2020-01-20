@@ -1,0 +1,18 @@
+print("¡hola!, soy FISA y te daré algunos datos que seguramente no sabes de ti, empecemos: ")
+nmbr =input("¿Cual es tu nombre?:\n ")
+wgh =input("¿Cuanto pesas?(kg):\n")
+hg =input("¿Cuanto mides?(m):\n")
+imc =round(float(wgh)/float(hg)**2,2) 
+
+print("perfecto, mira:")
+print(nmbr + " tiene " + str(len(nmbr)) + " letras " )
+print("y")
+print("tu indice de masa corporal es " + str(imc))
+print("\tapuesto a que eso no lo sabías de ti ;)\n")
+
+print("a lo largo de tu vida de inversor te afrontaras a diversos riesgos, aqui calcularemos el riesgo que tiene invertir en una u otra accion\n")
+x =input( "dame el numero de acciones en el que quieres invertir:\n ")
+y =input("dame el numero de porcentaje de cambio de su accion  :\n")
+
+pct = round(float(x)*float(y),2)
+print("el porcentaje de riesgo de tus acciones es")
