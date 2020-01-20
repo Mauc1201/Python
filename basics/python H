@@ -6,6 +6,8 @@ print(hellomath)
 nmbr=input("dime tu nombre: ")
  print(nmbr + " tiene " + str(len(nmbr)) + " letras ")
  
+ 
+#float es un tipo de dato flotante, round sirve para redondear este dato al entero más cercano con el numero de decimales que que queramos
 peso =input("¿cuanto pesas?(kg): ")
 altura =input("¿cuanto mides?(m): ")
 imc =round(float(peso)/float(altura)**2,2)
