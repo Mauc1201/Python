@@ -12,3 +12,17 @@ peso =input("¿cuanto pesas?(kg): ")
 altura =input("¿cuanto mides?(m): ")
 imc =round(float(peso)/float(altura)**2,2)
 print("Tu indice de masa corporal es:" + str(imc))
+---------------------------------------------------------------------------------------------------------------
+
+ PROYECTO
+ 
+hello =input("Hola, ¿Cómo te llamas?:") 
+print(" Hola "+ hello)
+servicio =input("¿En que te puedo servir?")
+print(servicio)
+print("1.Tu masa corporal"
+      "2.suma"
+      "3.Resta"
+      "4.cerrar)
+
+
